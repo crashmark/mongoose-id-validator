@@ -33,9 +33,15 @@
         "test": "./node_modules/.bin/mocha -R spec"
     },
     "devDependencies": {
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/gitlab": "^9.3.0",
+        "@semantic-release/npm": "^9.0.1",
+        "@semantic-release/release-notes-generator": "^10.0.3",
         "async": "~0.2.9",
         "mocha": "^2.2.1",
         "mongoose": "*",
+        "semantic-release": "^19.0.2",
         "should": "~3.0.1"
     },
     "dependencies": {
