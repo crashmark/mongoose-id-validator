@@ -1,5 +1,5 @@
 {
-    "name": "mongoose-id-validator",
+    "name": "@park-smart/mongoose-id-validator",
     "version": "0.6.0",
     "description": "Mongoose plugin to validate that ObjectID references refer to objects that actually exist in the referenced collection",
     "author": {
@@ -7,6 +7,7 @@
         "email": "martin@campbellsoftware.co.uk",
         "url": "http://www.campbellsoftware.co.uk"
     },
+    "private": true,
     "keywords": [
         "mongoose",
         "objectid",
@@ -40,5 +41,9 @@
     "dependencies": {
         "clone": "^1.0.2",
         "traverse": "^0.6.6"
+    },
+    "publishConfig": {
+        "access": "restricted",
+        "@park-smart:registry": "https://gitlab.com/api/v4/projects/36211830/packages/npm/"
     }
 }

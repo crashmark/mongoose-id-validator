@@ -1,0 +1,42 @@
+stages:
+  - release
+  - build
+  - deploy
+
+default:
+  image: node:15.4.0
+  before_script:
+    #- npm config set @park-smart:registry https://gitlab.com/api/v4/packages/npm
+    #- npm config set -- '//gitlab.com/api/v4/packages/npm/:_authToken' "${NPM_TOKEN}"
+    - npm i
+release:
+  tags:
+    - electronPSMInstallerAppBuilder
+    - psmNPMLibraries
+  stage: release
+  script:
+    - npx semantic-release
+  only:
+    refs:
+      - main
+#build:
+#  tags:
+#    - electronPSMInstallerAppBuilder
+#    - psmNPMLibraries
+#  stage: build
+#  script:
+#    - npm build
+#  only:
+#    refs:
+#      - master
+
+#deploy:
+#  tags:
+#    - electronPSMInstallerAppBuilder
+#    - psmNPMLibraries
+#  stage: deploy
+#  script:
+#    - npm publish
+#  only:
+#    refs:
+#      - master
