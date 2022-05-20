@@ -18,10 +18,7 @@
         "mongodb"
     ],
     "homepage": "https://gitlab.com/park-smart/backend/mongoose-id-validator",
-    "repository": {
-        "type": "git",
-        "url": "git://gitlab.com/park-smart/backend/mongoose-id-validator"
-    },
+    "repository": "https://gitlab.com/park-smart/backend/mongoose-id-validator.git",
     "license": "LGPL-3.0+",
     "readmeFilename": "README.md",
     "bugs": {
