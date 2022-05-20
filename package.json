@@ -7,7 +7,6 @@
         "email": "martin@campbellsoftware.co.uk",
         "url": "http://www.campbellsoftware.co.uk"
     },
-    "private": true,
     "keywords": [
         "mongoose",
         "objectid",

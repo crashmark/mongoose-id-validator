@@ -9,7 +9,7 @@ module.exports = {
       {
         gitlabUrl: 'https://gitlab.com',
         repositoryUrl:
-          'https://gitlab.com/park-smart/backend/mongoose-id-validator'
+          'https://gitlab.com/park-smart/backend/mongoose-id-validator.git'
       }
     ]
   ],
