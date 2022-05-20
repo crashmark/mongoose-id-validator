@@ -17,15 +17,15 @@
         "exists",
         "mongodb"
     ],
-    "homepage": "https://github.com/CampbellSoftwareSolutions/mongoose-id-validator",
+    "homepage": "https://gitlab.com/park-smart/backend/mongoose-id-validator",
     "repository": {
         "type": "git",
-        "url": "git://github.com/CampbellSoftwareSolutions/mongoose-id-validator"
+        "url": "git://gitlab.com/park-smart/backend/mongoose-id-validator"
     },
     "license": "LGPL-3.0+",
     "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/CampbellSoftwareSolutions/mongoose-id-validator/issues"
+        "url": "https://gitlab.com/park-smart/backend/mongoose-id-validator/issues"
     },
     "engine": "node >= 0.4.0",
     "main": "index.js",
